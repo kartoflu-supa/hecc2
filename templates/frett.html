@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block titill %}
+    {{frett[1]}}
+{% endblock %}
+
+{% block innihald %}
+    <h2 class="haus">
+        {{frett[1]}}
+    </h2>
+    <img src="../static/{{frett[4]}}" alt="{{frett[1]}}" class="mynd">
+    <p class="megninmal">
+        {{frett[2]}}
+    </p>
+    <h6 class="rit">
+        {{frett[3]}}
+        {{frett[5]}}
+    </h6>
+{% endblock %}

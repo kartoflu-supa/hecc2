@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(153, 255, 204);
+    font-family: 'Lucida Sans';
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.haus{
+    font-size: 30px;
+}
+.nav{
+    text-decoration: none;
+}
